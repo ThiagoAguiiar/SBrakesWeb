@@ -1,0 +1,126 @@
+.container {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  position: sticky;
+  top: 2%;
+  width: 100%;
+  z-index: 1;
+  height: 90px;
+  background: black;
+  background-position: center;
+  background-size: cover;
+  font-size: 1.7rem;
+  margin-top: 1rem !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 7px;
+  color: white;
+}
+
+
+.info {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px !important;
+  border-radius: 5px;
+  position: relative;
+}
+
+.info h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.credencial {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0px !important;
+  position: relative;
+}
+
+.edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.enviar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  transition: .2s all;
+}
+
+input:disabled {
+  background-color: rgb(241, 241, 241);
+}
+
+input[type=file] {
+  display: none;
+}
+
+.alterarImagem {
+  height: 45px;
+  margin-top: 10px !important;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 5px;
+}
+
+.alterarImagem:disabled {
+  background-color: rgb(241, 241, 241);
+}
+
+.viewIMG {
+  margin-top: 1.3rem !important;
+}
+
+.veiculo {
+  border: 2px solid rgb(241, 241, 241);
+  padding: 10px !important;
+  border-radius: 10px;
+  width: 98%;
+  margin: 0 auto !important;
+}
+
+.veiculo p {
+  margin: 5px 0px !important;
+}
+
+.infoVeiculo {
+  font-weight: 600;
+}
+
+.inputContainer input[type=submit] {
+  background-color: black;
+  color: white;
+  border: none !important;
+}

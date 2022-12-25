@@ -1,0 +1,114 @@
+.Header {
+  transition: .2s all;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 !important;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  user-select: none;
+}
+
+.HeaderBackground {
+  background: black;
+}
+
+.Header a {
+  color: white !important;
+  transition: .1s all;
+}
+
+.Header a:hover {
+  opacity: .5;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.Logo a {
+  font-size: 1.7em;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.Links {
+  font-weight: 600;
+  padding: 0 2rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.Links a {
+  letter-spacing: 2px;
+}
+
+.Login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: transparent;
+  background: transparent;
+}
+
+.Login a {
+  font-size: 14px !important;
+  font-weight: 600;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 4px solid white ;
+  border-radius: 3px;
+  color: black !important;
+}
+
+.Login a:hover {
+  padding: 9px 25px;
+  background-color: #00000000;
+  transition: all 0.3s;
+  color: white !important;
+  opacity: 10;
+}
+
+
+/* Menu Responsivo */
+
+.HideMenu {
+  display: none;
+  position: relative;
+  z-index: 100;
+}
+
+.HideMenu svg {
+  transition: .2s all;
+}
+
+.MenuRotate {
+  transform: rotate(90deg);
+}
+
+.ChatNone {
+  display: none;
+}
+
+@media screen and (max-width: 905px) {
+  .Links,
+  .Login {
+    display: none;
+  }
+
+  .HideMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,33 @@
+.Container {
+  width: 100%;
+}
+
+.Title {
+  position: sticky;
+  top: 2%;
+  height: 80px;
+  width: 100%;
+  background: black;
+  border-radius: 7px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.Title h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.Body {
+  margin-top: 1.5rem;
+}
+
+.Inputs {
+  margin: 10px 0px;
+}
+
+.Inputs label {
+  padding: 5px 0px;
+}
+

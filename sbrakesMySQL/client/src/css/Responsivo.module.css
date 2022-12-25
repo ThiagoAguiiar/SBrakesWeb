@@ -1,0 +1,51 @@
+.Responsive {
+  padding-bottom: 1rem !important;
+  font-family: 'Montserrat', sans-serif;
+  background: black;
+  width: 100%;
+  height: auto;
+  display: none;
+  position: fixed;
+  top: 0px;
+}
+
+.ResponsiveContainer {
+  margin-top: 60px;
+  color: white;
+}
+
+.ResponsiveContainer div {
+  text-align: center;
+}
+
+.ResponsiveContainer div h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.ResponsiveLinks {
+  margin-top: 2rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.ResponsiveLinks a {
+  height: 45px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1c1c1c;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 905px) {
+  .Responsive {
+    display: block;
+  }
+}

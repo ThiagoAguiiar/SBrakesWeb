@@ -1,0 +1,92 @@
+/* CONTAINER DA APLICAÇÃO */
+
+.container {
+  margin: 0 auto !important;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Logo {
+  font-size: 1.7em;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: black !important;
+}
+
+/* FORMULÁRIO DE LOGIN */
+
+.loginForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1000;
+  background-color: white;
+}
+
+.loginForm h2 {
+  font-weight: 700;
+}
+
+.form {
+  width: 80%;
+}
+
+.loginInputs {
+  width: 70%;
+  margin: 1rem 0rem !important;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 7px;
+}
+
+.loginInputs input[type=submit] {
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  padding-left: 1rem !important;
+  outline: none;
+}
+
+.loginInputs input[type=submit]:focus {
+  border: 1px solid darkgray;
+}
+
+.forgot {
+  color: blue;
+}
+
+.forgot:hover {
+  color: blue;
+  opacity: 1;
+  text-decoration: underline !important;
+}
+
+/* IMAGEM DE BACKGROUND LOGIN */
+
+.background {
+  height: 90%;
+  background: url(../img/form.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 99;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  .background {
+    display: none;
+  }
+
+  .loginInputs {
+    width: 100%;
+  }
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*:not(.chakra-menu__menuitem, .chakra-alert, .chakra-alert__icon,) {
+  margin: 0 !important;
+  padding: 0 !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.css-v9b9hc {
+  overflow: hidden !important;
+  align-items: center !important;
+}
+
+.css-r6z5ec {
+  z-index: 3;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Login Configurações básicas */
+
+#login-enviar {
+  margin-top: 1rem !important;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+
+#login-enviar:hover {
+  background-color: rgba(0, 0, 0, 0.925) !important;
+  opacity: 1 !important;
+}
+
+#submit {
+  position: relative;
+}
+
+#login-enviar:focus {
+  border: none !important;
+}
+
+/* Header configurações básicas */
+
+#white {
+  background-color: white;
+}
+
+#none {
+  display: none;
+}
+
+/* Cadastrar Dashboard */
+
+#bg-green {
+  background-color: #22C35E;
+}
+
+#bg-black {
+  background-color: black;
+}
+
+.css-xl71ch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+}
+
+.css-xl71ch p {
+  font-weight: 500;
+}
+
+.css-kjvu41 {
+  height: 100%;
+}
+
+.css-fxymyq:focus-visible, 
+.css-fxymyq[data-focus-visible] {
+  box-shadow: none !important;
+}

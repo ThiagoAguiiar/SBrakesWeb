@@ -1,0 +1,197 @@
+.Container {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.MenuContainer {
+  width: 100px;
+  height: 100%;
+  position: relative;
+  position: fixed;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto !important;
+}
+
+.Menu {
+  position: relative;
+  background: black;
+  border-radius: 10px;
+  height: 98%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.Menu a {
+  padding: 0 !important;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: .1s all;
+  border-radius: 5px;
+}
+
+.Menu a:hover {
+  color: white;
+  background-color: #333;
+}
+
+.Body {
+  margin-left: 90px;
+  padding-left: 1rem; 
+}
+
+.Header {
+  padding: 0 !important;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+}
+
+.User {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  padding-right: 2rem;
+}
+
+.User img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+/* Modal que edita os dados  */
+.ImgUpdate {
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+}
+
+.ImgUpdate:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+
+.Card {
+  padding: 0 !important;
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.CardItem {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0)), url(../img/dashboard.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.CardItem p {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.CardItem h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.CardItem a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #014DC1;
+  border-radius: 5px;
+  color: white;
+  margin-top: 15px;
+  width: 150px;
+  height: 35px;
+}
+
+.CardItem a:hover {
+  background: #0040a0;
+}
+
+.Actions {
+  padding: 0;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.ActionsTitle h1 {
+  padding: 0 !important;
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+}
+
+.ActionsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  margin-top: 2rem;
+}
+
+.ActionsItem {
+  width: 100%;
+  height: 80%;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.ActionsItemTitle {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  padding: 10px 5px;
+}
+
+.ActionsItemTitle p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+}
+
+.ActionsItemBody {
+  padding: 5px 2rem 0px 5px;
+}
+
+.ActionsItemBody p {
+  text-align: justify;
+}
+

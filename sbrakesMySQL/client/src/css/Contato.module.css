@@ -1,0 +1,166 @@
+/* Container da página */
+.Container {
+  width: 100%;
+  height: auto;
+  background: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+.Background {
+  width: 95%;
+  height: 40vh;
+  margin: 0 auto !important;
+  padding-top: 70px !important;
+}
+
+.Title {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 10px;
+}
+
+.Title h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.Description {
+  padding-top: .6rem;
+  color: gray;
+}
+
+/* Seção um */
+.FiSection {
+  width: 95%;
+  margin: 0 auto !important;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Redes {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1c1c1c;
+  color: white;
+  height: 150px;
+  transition: .2s all;
+  font-weight: 600;
+}
+
+.Redes h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  user-select: none;
+}
+
+.Redes:hover {
+  background-color: #333;
+}
+
+.Icons {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: -20px;
+  right: 10px;
+  margin: 0 auto !important;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(164deg, rgba(0, 212, 255, 1) 11%, rgb(11, 2, 180));
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.IconsInstagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important;
+}
+
+.Instagram:hover {
+  background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+
+.Facebook:hover {
+  background: linear-gradient(164deg, rgba(0, 212, 255, 1) 11%, rgb(11, 2, 180));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+
+/* Seção Dois */
+.SeSection {
+  width: 95%;
+  margin: 0 auto !important;
+  padding-top: 2rem;
+  align-items: center;
+}
+
+.SeImg {
+  position: relative;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SeImg img {
+  position: relative;
+  margin-right: auto;
+}
+
+.SeTitle {
+  padding: 20px 0px;
+  color: white;
+}
+
+.SeTitle h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.SeTitle p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.SeTitle button {
+  margin-top: 2rem;
+  border-radius: 5px;
+  width: 60%;
+  height: 45px;
+  background: white;
+  font-weight: 600;
+  color: black;
+  transition: .1s all;
+}
+
+.SeTitle button:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+/* Responsividade */
+@media screen and (max-width: 770px ) {
+  .SeImg {
+    display: none;
+  }
+
+  .SeTitle button {
+    width: 100%;
+  }
+
+  .Redes {
+    margin-bottom: 10px;
+  }
+}

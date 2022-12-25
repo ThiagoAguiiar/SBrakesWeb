@@ -1,0 +1,199 @@
+/* Container da aplicação */
+
+.Container {
+  width: 100vw;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+}
+
+/* Imagem de fundo e Estilos do Background */
+.Background {
+  margin: 0 !important;
+  width: 100vw;
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 3)), url(../img/truck.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Title {
+  margin-top: 70px !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5rem !important;
+}
+
+.Title div {
+  text-align: center;
+  width: 40%;
+}
+
+.Title h1 {
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin: 0 auto !important;
+}
+
+.Title p {
+  width: 90%;
+  margin: 10px auto !important;
+  color: #ABABAB;
+}
+
+/* PRIMEIRA SEÇÃO  */
+
+.FiSection {
+  width: 95%;
+  margin: 0 auto !important;
+}
+
+.Cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0px !important;
+}
+
+.CardsItem {
+  border-radius: 7px;
+  width: 98%;
+  height: 100%;
+  color: white;
+  background: #1c1c1c;
+  padding: 15px !important;
+}
+
+.CardTitle {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0  !important;
+}
+
+.Icons {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fca311;
+  border-radius: 5px;
+  position: relative;
+  bottom: 2rem;
+}
+
+.CardTitle h1 {
+  margin: 0 !important;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.CardBody p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+/* SEGUNDA SEÇÃO */
+
+.SeSection {
+  width: 95%;
+  height: auto;
+  margin: 0 auto !important;
+}
+
+.AppTitle {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AppTitle h1 {
+  font-weight: 700;
+  color: white;
+  font-size: 2rem;
+}
+
+.BaixarApp {
+  margin-top: 3rem !important;
+  padding: 0 !important;
+}
+
+.BaixarApp img {
+  width: 500px;
+}
+
+.Info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 !important;
+}
+
+.InfoTitleContainer h1 {
+  font-size: 2.5rem;
+  margin: 5px 0px !important;
+  color: gray;
+  font-weight: 700;
+}
+
+
+.FiTitle {
+  color: white !important;
+  font-size: 3rem !important;
+}
+
+.Download {
+  color: #424242 !important;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 905px) {
+  /* BACKGROUND */
+  
+  .Background {
+    background-position: left;
+  }
+
+  .Title {
+    justify-content: center;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+
+  .Title div {
+    width: 90%;
+  }
+
+  .Title h1 {
+    font-size: 2.3rem;
+  }
+
+  /* SEGUNDAÇÃO SEÇÃO */
+
+  .BaixarApp {
+    display: none;
+  }
+
+  .Info {
+    width: 90%;
+    margin: 0 auto !important;
+  }
+
+  .InfoTitleContainer {
+    padding: 10px 0px !important;
+  }
+
+  .InfoTitleContainer h1 {
+    font-size: 1.8rem !important;
+  }
+}

@@ -1,0 +1,70 @@
+/* Container da página */
+.Container {
+  width: 100%;
+  height: auto;
+  background: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+
+.Background {
+  width: 95%;
+  height: 40vh;
+  margin: 0 auto !important;
+  padding-top: 70px !important;
+}
+
+.Title {
+ color: white;
+ display: flex;
+ flex-direction: column;
+ align-self: center;
+ gap: 10px;
+}
+
+.Title h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.Description {
+  padding-top: .6rem;
+  color: gray;
+}
+
+/* SEÇÃO UM */
+
+.FiSection {
+  width: 95%; 
+  margin: 0 auto !important;
+  padding-bottom: 20px;
+}
+
+.Flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.SeSection {
+  width: 95%;
+  margin: 0 auto !important;
+  padding: 20px 0px !important;
+}
+
+.SeSection h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.SeSection p {
+  margin-top: 15px;
+  color: gray;
+}
+
+.SeSection p a {
+  color: white;
+}
+

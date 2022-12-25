@@ -1,0 +1,88 @@
+.Container {
+  width: 100%;
+  padding: 0 !important;
+}
+
+.Title {
+  z-index: 1;
+  position: sticky;
+  top: 2%;
+  color: white;
+  background: black;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.Title h1 {
+  font-size: 1.8rem;
+}
+
+.Body {
+  margin-top: 1rem;
+  padding: 0 0 0 10px !important;
+}
+
+.InputContainer {
+  margin: 10px 0px;
+  position: relative;
+}
+
+label {
+  padding: 5px 0px;
+  font-weight: 600;
+}
+
+.File {
+  margin-top: 15px !important;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 98%;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  border-radius: 5px;
+  transition: all .2s;
+}
+
+.File:hover {
+  background-color: rgb(241, 241, 241);
+  border: none !important;
+}
+
+.InputSubmit {
+  margin: 15px 0px;
+}
+
+.InputSubmit input {
+  width: 98%;
+  background-color: black;
+  color: white;
+  height: 45px;
+  border-radius: 5px;
+  transition: .2s all;
+  font-weight: 600;
+  margin-bottom: 10px !important;
+}
+
+.InputSubmit input:hover {
+  background-color: #1c1c1c;
+}
+
+.Img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Img img {
+  width: 150px;
+  height: auto;
+}
